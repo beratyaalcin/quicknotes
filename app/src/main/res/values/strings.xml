@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="notes">My Notes</string>
+    <string name="Hello">Hello.</string>
+    <string name="WelcomeBack">Welcome back.</string>
+    <string name="Register">Lets register.</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Registerbutton">REGISTER</string>
+    <string name="AlreadyHaveAccount">Already Have an Account?</string>
+    <string name="LoginText">LOG IN</string>
+    <string name="AccountCreated">Account created successfully. Please check your email!</string>
+    <string name="Emailiswrong">Wrong email input!</string>
+    <string name="Passwordsnotmatch">Please match the passwords!</string>
+    <string name="PasswordisShort">Please write longer password!</string>
+    <string name="Donthaveacc">Dont have an account?</string>
+    <string name="Verify">Verify your account via link we sended in your email address.</string>
+    <string name="WrongEmail">Email is wrong!</string>
+    <string name="NewNote">Create a New Note:</string>
+    <string name="Title">Title</string>
+    <string name="StartWriting">Start Writing...</string>
+    <string name="DeleteNote">DELETE NOTE</string>
+    <string name="EditNote">Edit Your Note:</string>
+    <string name="NoTitle">Title is required.</string>
+    <string name="NoteAdded">Note added successfully.</string>
+    <string name="NoteFailed">Failed while adding note.</string>
+    <string name="NoteDeleted">Note deleted successfully</string>
+    <string name="NoteDeletedFailed">Failed while deleting note</string>
+    <string name="Settings">Settings</string>
+    <string name="Language">Choose a Language:</string>
+    <string name="LogOut">LOG OUT</string>
+    <string name="LanguageChanged">Language is changed.</string>
+</resources>

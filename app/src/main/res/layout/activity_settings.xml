@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background01"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back_arrow_svgrepo_com"
+            android:tint="@color/white"
+            android:contentDescription="Back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:id="@+id/page_title"
+            android:text="@string/Settings"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <!-- Dil Seçimi -->
+    <RelativeLayout
+        android:id="@+id/languageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/language_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/Language"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingEnd="8dp"/>
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/language_textview"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:id="@+id/turkish_flag"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/turkish_flag"
+                android:contentDescription="Turkish Flag"
+                android:padding="8dp"/>
+
+            <ImageView
+                android:id="@+id/american_flag"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/american_flag"
+                android:contentDescription="American Flag"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+
+    <!-- Çıkış Yap -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="@string/LogOut"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:onClick="logoutClicked"/>
+
+</RelativeLayout>

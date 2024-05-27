@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="notes">Notlarım</string>
+    <string name="Hello">Merhaba.</string>
+    <string name="WelcomeBack">Tekrardan Hoşgeldin.</string>
+    <string name="Register">Hadi kayıt olalım.</string>
+    <string name="Password">Şifre</string>
+    <string name="ConfirmPassword">Şifreyi Tekrar Gir</string>
+    <string name="Registerbutton">KAYIT OL</string>
+    <string name="AlreadyHaveAccount">Zaten bir hesaba sahip misin?</string>
+    <string name="LoginText">GİRİŞ YAP</string>
+    <string name="AccountCreated">Hesap başarıyla oluşturuldu. Lütfen mail adresini kontrol et!</string>
+    <string name="Emailiswrong">Email yanlış girildi!</string>
+    <string name="Passwordsnotmatch">Şifreler eşleşmiyor.</string>
+    <string name="PasswordisShort">Şifre kısa girildi!</string>
+    <string name="Donthaveacc">Bir hesabın yok mu?</string>
+    <string name="Verify">Email adresine gelen doğrulama linkine tıkla!</string>
+    <string name="WrongEmail">Email yanlış girildi!</string>
+    <string name="NewNote">Yeni Not Oluştur:</string>
+    <string name="Title">Başlık</string>
+    <string name="StartWriting">Yazmaya başla...</string>
+    <string name="DeleteNote">NOTU SİL</string>
+    <string name="EditNote">Notu Düzenle:</string>
+    <string name="NoTitle">Lütfen başlık koyun!</string>
+    <string name="NoteAdded">Not başarıyla eklendi!</string>
+    <string name="NoteFailed">Not eklenirken bir sorunla karşılaşıldı!</string>
+    <string name="NoteDeleted">Not başarıyla silindi!</string>
+    <string name="NoteDeletedFailed">Not silinirken bir sorunla karşılaşıldı!</string>
+    <string name="Settings">Ayarlar</string>
+    <string name="Language">Dil Seçeneği:</string>
+    <string name="LogOut">ÇIKIŞ YAP</string>
+    <string name="LanguageChanged">Dil değiştirildi!</string>
+</resources>
